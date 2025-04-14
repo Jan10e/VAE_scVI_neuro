@@ -1,0 +1,45 @@
+# Exclude all data directories
+data/
+bird_or_not/
+images/
+bears/
+outputs/
+results/
+
+# Exclude specific data directories at any level
+**/data/
+**/datasets/
+**/input/
+**/outputs/
+**/results/
+
+# Exclude specific file types (optional)
+*.csv
+*.json
+*.xml
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Exclude temporary files and directories
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Exclude Python cache files
+__pycache__/
+*.py[cod]
+
+# Exclude Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude environment files
+.env
+.venv
+env/
+venv/
